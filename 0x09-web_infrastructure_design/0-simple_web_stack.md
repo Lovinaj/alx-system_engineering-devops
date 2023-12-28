@@ -1,4 +1,4 @@
-## Simple Web Stack
+# Simple Web Stack
 A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a LAMP stack.
 
 This is a design of a one server web infrastructure that hosts a website that is reachable via www.foobar.com. This explanation begins by having a user wanting to access the website.
@@ -18,7 +18,7 @@ Infrastructure Design:
 
 6. Database (MySQL): The database stores and manages the application's data. It handles queries, storage, and retrieval of information. In this case, MySQL is used, but other databases like PostgreSQL, SQLite, or NoSQL databases can be chosen based on specific requirements.
 
-# Explanation of Specifics:
+## Explanation of Specifics:
 
 * What is a Server: A server is a computer or software system that provides services, data, or resources to other computers or devices over a network, such as the internet. In this context, it hosts the web application.
 
