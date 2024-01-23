@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # configure my ssh file so that I can connect to my server without my password
 
-Host 100.25.13.234
+Host 52.207.208.246
 IdentityFile ~/.ssh/school
 PasswordAuthentication no
