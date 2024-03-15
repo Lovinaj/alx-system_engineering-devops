@@ -16,6 +16,10 @@ server {
     location = /airbnb-onepage/ {
         proxy_pass https://127.0.0.1:5000/airbnb-onepage/;
     }
+    
+    location /redirect_me {
+        return 301 http://lovejon.tech;
+    }
 
     error_page 404 /404.html;
     location /404 {
